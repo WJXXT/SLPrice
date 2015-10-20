@@ -1,5 +1,5 @@
 //
-//  PublishDelicacyController.h
+//  PickerViewController.h
 //  SLPrice
 //
 //  Created by XXT on 15/10/20.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PublishDelicacyController : UITableViewController
+@interface PickerViewController : UIViewController
 
 @end

@@ -37,7 +37,6 @@
     [bt3 addTarget:self action:@selector(reg3) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:bt3];
 }
-
 -(void)reg1{
 
     PublishDelicacyController *del =[[PublishDelicacyController alloc]init];

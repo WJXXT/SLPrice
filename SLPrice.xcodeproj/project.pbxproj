@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		B90BCD901BD5F16D00121415 /* PublishDelicacyData.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCD8E1BD5F16D00121415 /* PublishDelicacyData.m */; };
 		B90BCD951BD5F1AA00121415 /* PublishMovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCD931BD5F1AA00121415 /* PublishMovieData.m */; };
+		B90BCD981BD6187A00121415 /* beijing.json in Resources */ = {isa = PBXBuildFile; fileRef = B90BCD971BD6187A00121415 /* beijing.json */; };
+		B90BCDA11BD62FCB00121415 /* PublishDelicacyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCDA01BD62FCB00121415 /* PublishDelicacyController.m */; };
+		B90BCDA81BD633B500121415 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCDA71BD633B500121415 /* PickerViewController.m */; };
+		B90BCDAB1BD6341400121415 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCDAA1BD6341400121415 /* PickerView.m */; };
+		B90BCDAD1BD6358000121415 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BCDAC1BD6358000121415 /* QuartzCore.framework */; };
+		B90BCDAF1BD6390300121415 /* 4-introBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B90BCDAE1BD6390300121415 /* 4-introBackground@2x.png */; };
+		B90BCDB21BD655A200121415 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCDB11BD655A200121415 /* UIView+Extension.m */; };
 		B912B86C1BD5D07600EFDEC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B86B1BD5D07600EFDEC5 /* main.m */; };
 		B912B8751BD5D07600EFDEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B912B8731BD5D07600EFDEC5 /* Main.storyboard */; };
 		B912B8771BD5D07600EFDEC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B912B8761BD5D07600EFDEC5 /* Images.xcassets */; };
@@ -21,7 +28,6 @@
 		B912B8EC1BD5D09000EFDEC5 /* ZHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8A51BD5D09000EFDEC5 /* ZHPickView.m */; };
 		B912B8ED1BD5D09000EFDEC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8A91BD5D09000EFDEC5 /* AppDelegate.m */; };
 		B912B8EF1BD5D09000EFDEC5 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8AF1BD5D09000EFDEC5 /* MovieViewController.m */; };
-		B912B8F01BD5D09000EFDEC5 /* PublishDelicacyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8B61BD5D09000EFDEC5 /* PublishDelicacyController.m */; };
 		B912B8F11BD5D09000EFDEC5 /* PublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8BA1BD5D09000EFDEC5 /* PublishController.m */; };
 		B912B8F21BD5D09000EFDEC5 /* PublishMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8BE1BD5D09000EFDEC5 /* PublishMovieController.m */; };
 		B912B8F51BD5D09000EFDEC5 /* PublishTravelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8C71BD5D09000EFDEC5 /* PublishTravelController.m */; };
@@ -63,6 +69,17 @@
 		B90BCD8E1BD5F16D00121415 /* PublishDelicacyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDelicacyData.m; sourceTree = "<group>"; };
 		B90BCD921BD5F1AA00121415 /* PublishMovieData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishMovieData.h; sourceTree = "<group>"; };
 		B90BCD931BD5F1AA00121415 /* PublishMovieData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishMovieData.m; sourceTree = "<group>"; };
+		B90BCD971BD6187A00121415 /* beijing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beijing.json; sourceTree = "<group>"; };
+		B90BCD9F1BD62FCB00121415 /* PublishDelicacyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDelicacyController.h; sourceTree = "<group>"; };
+		B90BCDA01BD62FCB00121415 /* PublishDelicacyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDelicacyController.m; sourceTree = "<group>"; };
+		B90BCDA61BD633B500121415 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		B90BCDA71BD633B500121415 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		B90BCDA91BD6341400121415 /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		B90BCDAA1BD6341400121415 /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		B90BCDAC1BD6358000121415 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B90BCDAE1BD6390300121415 /* 4-introBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-introBackground@2x.png"; sourceTree = "<group>"; };
+		B90BCDB01BD655A200121415 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B90BCDB11BD655A200121415 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		B912B8661BD5D07600EFDEC5 /* SLPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B912B86A1BD5D07600EFDEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B912B86B1BD5D07600EFDEC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,8 +103,6 @@
 		B912B8A91BD5D09000EFDEC5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B912B8AE1BD5D09000EFDEC5 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		B912B8AF1BD5D09000EFDEC5 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
-		B912B8B51BD5D09000EFDEC5 /* PublishDelicacyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDelicacyController.h; sourceTree = "<group>"; };
-		B912B8B61BD5D09000EFDEC5 /* PublishDelicacyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDelicacyController.m; sourceTree = "<group>"; };
 		B912B8B91BD5D09000EFDEC5 /* PublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishController.h; sourceTree = "<group>"; };
 		B912B8BA1BD5D09000EFDEC5 /* PublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishController.m; sourceTree = "<group>"; };
 		B912B8BD1BD5D09000EFDEC5 /* PublishMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishMovieController.h; sourceTree = "<group>"; };
@@ -130,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90BCDAD1BD6358000121415 /* QuartzCore.framework in Frameworks */,
 				B912B91C1BD5D22A00EFDEC5 /* MediaPlayer.framework in Frameworks */,
 				B912B91A1BD5D22000EFDEC5 /* AVFoundation.framework in Frameworks */,
 				B912B9181BD5D21900EFDEC5 /* libsqlite3.dylib in Frameworks */,
@@ -195,9 +211,45 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B90BCDA21BD6328C00121415 /* PublishCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B90BCDA31BD6328C00121415 /* Controller */,
+				B90BCDA41BD6328C00121415 /* Model */,
+				B90BCDA51BD6328C00121415 /* View */,
+			);
+			path = PublishCommon;
+			sourceTree = "<group>";
+		};
+		B90BCDA31BD6328C00121415 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B90BCDA61BD633B500121415 /* PickerViewController.h */,
+				B90BCDA71BD633B500121415 /* PickerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B90BCDA41BD6328C00121415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B90BCDA51BD6328C00121415 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B90BCDA91BD6341400121415 /* PickerView.h */,
+				B90BCDAA1BD6341400121415 /* PickerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B912B85D1BD5D07600EFDEC5 = {
 			isa = PBXGroup;
 			children = (
+				B90BCDAC1BD6358000121415 /* QuartzCore.framework */,
 				B912B91B1BD5D22A00EFDEC5 /* MediaPlayer.framework */,
 				B912B9191BD5D22000EFDEC5 /* AVFoundation.framework */,
 				B912B9171BD5D21900EFDEC5 /* libsqlite3.dylib */,
@@ -362,6 +414,8 @@
 		B912B89D1BD5D09000EFDEC5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B90BCDB01BD655A200121415 /* UIView+Extension.h */,
+				B90BCDB11BD655A200121415 /* UIView+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -445,6 +499,7 @@
 		B912B8B21BD5D09000EFDEC5 /* Publish */ = {
 			isa = PBXGroup;
 			children = (
+				B90BCDA21BD6328C00121415 /* PublishCommon */,
 				B912B8B31BD5D09000EFDEC5 /* PublishDelicacy */,
 				B912B8B71BD5D09000EFDEC5 /* PublishMain */,
 				B912B8BB1BD5D09000EFDEC5 /* PublishMovie */,
@@ -466,8 +521,8 @@
 		B912B8B41BD5D09000EFDEC5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B912B8B51BD5D09000EFDEC5 /* PublishDelicacyController.h */,
-				B912B8B61BD5D09000EFDEC5 /* PublishDelicacyController.m */,
+				B90BCD9F1BD62FCB00121415 /* PublishDelicacyController.h */,
+				B90BCDA01BD62FCB00121415 /* PublishDelicacyController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -685,6 +740,7 @@
 		B912B8FE1BD5D0A700EFDEC5 /* DocumentFile */ = {
 			isa = PBXGroup;
 			children = (
+				B90BCDAE1BD6390300121415 /* 4-introBackground@2x.png */,
 				B912B8FF1BD5D0A700EFDEC5 /* gwl.jpg */,
 				B912B9001BD5D0A700EFDEC5 /* icon */,
 				B912B9011BD5D0A700EFDEC5 /* plist */,
@@ -702,6 +758,7 @@
 		B912B9011BD5D0A700EFDEC5 /* plist */ = {
 			isa = PBXGroup;
 			children = (
+				B90BCD971BD6187A00121415 /* beijing.json */,
 			);
 			path = plist;
 			sourceTree = "<group>";
@@ -788,7 +845,9 @@
 			files = (
 				B912B9021BD5D0A700EFDEC5 /* gwl.jpg in Resources */,
 				B912B8751BD5D07600EFDEC5 /* Main.storyboard in Resources */,
+				B90BCDAF1BD6390300121415 /* 4-introBackground@2x.png in Resources */,
 				B912B87A1BD5D07600EFDEC5 /* LaunchScreen.xib in Resources */,
+				B90BCD981BD6187A00121415 /* beijing.json in Resources */,
 				B912B8771BD5D07600EFDEC5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,20 +870,23 @@
 				B912B8F51BD5D09000EFDEC5 /* PublishTravelController.m in Sources */,
 				B90BCD951BD5F1AA00121415 /* PublishMovieData.m in Sources */,
 				B912B8EF1BD5D09000EFDEC5 /* MovieViewController.m in Sources */,
-				B912B8F01BD5D09000EFDEC5 /* PublishDelicacyController.m in Sources */,
 				B912B8F81BD5D09000EFDEC5 /* LoginController.m in Sources */,
 				B912B8E81BD5D09000EFDEC5 /* DelicacyController.m in Sources */,
+				B90BCDB21BD655A200121415 /* UIView+Extension.m in Sources */,
+				B90BCDA81BD633B500121415 /* PickerViewController.m in Sources */,
 				B912B8FA1BD5D09000EFDEC5 /* UserViewController.m in Sources */,
 				B912B8ED1BD5D09000EFDEC5 /* AppDelegate.m in Sources */,
 				B912B8F61BD5D09000EFDEC5 /* PublishTravelData.m in Sources */,
 				B912B8F71BD5D09000EFDEC5 /* TravelViewController.m in Sources */,
 				B912B8F21BD5D09000EFDEC5 /* PublishMovieController.m in Sources */,
 				B912B8EA1BD5D09000EFDEC5 /* RootViewController.m in Sources */,
+				B90BCDA11BD62FCB00121415 /* PublishDelicacyController.m in Sources */,
 				B912B8FB1BD5D09000EFDEC5 /* RegisterController.m in Sources */,
 				B912B8EC1BD5D09000EFDEC5 /* ZHPickView.m in Sources */,
 				B90BCD901BD5F16D00121415 /* PublishDelicacyData.m in Sources */,
 				B912B8E91BD5D09000EFDEC5 /* DiscoverController.m in Sources */,
 				B912B8EB1BD5D09000EFDEC5 /* VWWWaterView.m in Sources */,
+				B90BCDAB1BD6341400121415 /* PickerView.m in Sources */,
 				B912B86C1BD5D07600EFDEC5 /* main.m in Sources */,
 				B912B8F11BD5D09000EFDEC5 /* PublishController.m in Sources */,
 				B912B8F91BD5D09000EFDEC5 /* LoginModel.m in Sources */,
