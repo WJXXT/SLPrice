@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  SLPrice
+//
+//  Created by 王新国 on 15/10/18.
+//  Copyright (c) 2015年 XXT. All rights reserved.
+//
+
+#ifndef SLPrice_PrefixHeader_pch
+#define SLPrice_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+//-------------------获取设备大小-------------------------
+//状态栏高度
+#define STATUS_BAR_HEIGHT 20
+//NavBar高度
+#define NavigationBar_HEIGHT 44
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+//-------------------打印日志-------------------------
+//DEBUG  模式下打印日志,当前行
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+
+//重写NSLog,Debug模式下打印日志和当前行数
+#if DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+#ifdef DEBUG
+#define DNSLogPoint(p) NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p) NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p) NSLog(@"%f,%f,%f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height,);
+#else
+#define DNSLogPoint(p);
+#define DNSLogSize(p);
+#define DNSLogRect(p);
+#endif
+
+#import <BmobSDK/Bmob.h>
+//带有RGBA的颜色设置
+#define COLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
