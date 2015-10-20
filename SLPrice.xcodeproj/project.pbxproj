@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90BCD901BD5F16D00121415 /* PublishDelicacyData.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCD8E1BD5F16D00121415 /* PublishDelicacyData.m */; };
+		B90BCD951BD5F1AA00121415 /* PublishMovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BCD931BD5F1AA00121415 /* PublishMovieData.m */; };
 		B912B86C1BD5D07600EFDEC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B86B1BD5D07600EFDEC5 /* main.m */; };
 		B912B8751BD5D07600EFDEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B912B8731BD5D07600EFDEC5 /* Main.storyboard */; };
 		B912B8771BD5D07600EFDEC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B912B8761BD5D07600EFDEC5 /* Images.xcassets */; };
@@ -22,8 +24,6 @@
 		B912B8F01BD5D09000EFDEC5 /* PublishDelicacyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8B61BD5D09000EFDEC5 /* PublishDelicacyController.m */; };
 		B912B8F11BD5D09000EFDEC5 /* PublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8BA1BD5D09000EFDEC5 /* PublishController.m */; };
 		B912B8F21BD5D09000EFDEC5 /* PublishMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8BE1BD5D09000EFDEC5 /* PublishMovieController.m */; };
-		B912B8F31BD5D09000EFDEC5 /* PublishDelicacyData.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8C11BD5D09000EFDEC5 /* PublishDelicacyData.m */; };
-		B912B8F41BD5D09000EFDEC5 /* PublishMovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8C31BD5D09000EFDEC5 /* PublishMovieData.m */; };
 		B912B8F51BD5D09000EFDEC5 /* PublishTravelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8C71BD5D09000EFDEC5 /* PublishTravelController.m */; };
 		B912B8F61BD5D09000EFDEC5 /* PublishTravelData.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8CA1BD5D09000EFDEC5 /* PublishTravelData.m */; };
 		B912B8F71BD5D09000EFDEC5 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B912B8CE1BD5D09000EFDEC5 /* TravelViewController.m */; };
@@ -59,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90BCD8D1BD5F16D00121415 /* PublishDelicacyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDelicacyData.h; sourceTree = "<group>"; };
+		B90BCD8E1BD5F16D00121415 /* PublishDelicacyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDelicacyData.m; sourceTree = "<group>"; };
+		B90BCD921BD5F1AA00121415 /* PublishMovieData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishMovieData.h; sourceTree = "<group>"; };
+		B90BCD931BD5F1AA00121415 /* PublishMovieData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishMovieData.m; sourceTree = "<group>"; };
 		B912B8661BD5D07600EFDEC5 /* SLPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B912B86A1BD5D07600EFDEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B912B86B1BD5D07600EFDEC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,10 +92,6 @@
 		B912B8BA1BD5D09000EFDEC5 /* PublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishController.m; sourceTree = "<group>"; };
 		B912B8BD1BD5D09000EFDEC5 /* PublishMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishMovieController.h; sourceTree = "<group>"; };
 		B912B8BE1BD5D09000EFDEC5 /* PublishMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishMovieController.m; sourceTree = "<group>"; };
-		B912B8C01BD5D09000EFDEC5 /* PublishDelicacyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishDelicacyData.h; sourceTree = "<group>"; };
-		B912B8C11BD5D09000EFDEC5 /* PublishDelicacyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishDelicacyData.m; sourceTree = "<group>"; };
-		B912B8C21BD5D09000EFDEC5 /* PublishMovieData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishMovieData.h; sourceTree = "<group>"; };
-		B912B8C31BD5D09000EFDEC5 /* PublishMovieData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishMovieData.m; sourceTree = "<group>"; };
 		B912B8C61BD5D09000EFDEC5 /* PublishTravelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishTravelController.h; sourceTree = "<group>"; };
 		B912B8C71BD5D09000EFDEC5 /* PublishTravelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishTravelController.m; sourceTree = "<group>"; };
 		B912B8C91BD5D09000EFDEC5 /* PublishTravelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishTravelData.h; sourceTree = "<group>"; };
@@ -156,6 +156,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90BCD8C1BD5F16D00121415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B90BCD8D1BD5F16D00121415 /* PublishDelicacyData.h */,
+				B90BCD8E1BD5F16D00121415 /* PublishDelicacyData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B90BCD8F1BD5F16D00121415 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B90BCD911BD5F1AA00121415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B90BCD921BD5F1AA00121415 /* PublishMovieData.h */,
+				B90BCD931BD5F1AA00121415 /* PublishMovieData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B90BCD941BD5F1AA00121415 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B90BCD961BD5F1D100121415 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B912B85D1BD5D07600EFDEC5 = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +457,8 @@
 			isa = PBXGroup;
 			children = (
 				B912B8B41BD5D09000EFDEC5 /* Controller */,
+				B90BCD8C1BD5F16D00121415 /* Model */,
+				B90BCD8F1BD5F16D00121415 /* View */,
 			);
 			path = PublishDelicacy;
 			sourceTree = "<group>";
@@ -452,7 +493,8 @@
 			isa = PBXGroup;
 			children = (
 				B912B8BC1BD5D09000EFDEC5 /* Controller */,
-				B912B8BF1BD5D09000EFDEC5 /* Model */,
+				B90BCD911BD5F1AA00121415 /* Model */,
+				B90BCD941BD5F1AA00121415 /* View */,
 			);
 			path = PublishMovie;
 			sourceTree = "<group>";
@@ -466,21 +508,11 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B912B8BF1BD5D09000EFDEC5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B912B8C01BD5D09000EFDEC5 /* PublishDelicacyData.h */,
-				B912B8C11BD5D09000EFDEC5 /* PublishDelicacyData.m */,
-				B912B8C21BD5D09000EFDEC5 /* PublishMovieData.h */,
-				B912B8C31BD5D09000EFDEC5 /* PublishMovieData.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B912B8C41BD5D09000EFDEC5 /* PublishTravel */ = {
 			isa = PBXGroup;
 			children = (
 				B912B8C51BD5D09000EFDEC5 /* Controller */,
+				B90BCD961BD5F1D100121415 /* View */,
 				B912B8C81BD5D09000EFDEC5 /* Model */,
 			);
 			path = PublishTravel;
@@ -777,6 +809,7 @@
 			files = (
 				B912B8FC1BD5D09000EFDEC5 /* RegisterModel.m in Sources */,
 				B912B8F51BD5D09000EFDEC5 /* PublishTravelController.m in Sources */,
+				B90BCD951BD5F1AA00121415 /* PublishMovieData.m in Sources */,
 				B912B8EF1BD5D09000EFDEC5 /* MovieViewController.m in Sources */,
 				B912B8F01BD5D09000EFDEC5 /* PublishDelicacyController.m in Sources */,
 				B912B8F81BD5D09000EFDEC5 /* LoginController.m in Sources */,
@@ -789,11 +822,10 @@
 				B912B8EA1BD5D09000EFDEC5 /* RootViewController.m in Sources */,
 				B912B8FB1BD5D09000EFDEC5 /* RegisterController.m in Sources */,
 				B912B8EC1BD5D09000EFDEC5 /* ZHPickView.m in Sources */,
-				B912B8F31BD5D09000EFDEC5 /* PublishDelicacyData.m in Sources */,
+				B90BCD901BD5F16D00121415 /* PublishDelicacyData.m in Sources */,
 				B912B8E91BD5D09000EFDEC5 /* DiscoverController.m in Sources */,
 				B912B8EB1BD5D09000EFDEC5 /* VWWWaterView.m in Sources */,
 				B912B86C1BD5D07600EFDEC5 /* main.m in Sources */,
-				B912B8F41BD5D09000EFDEC5 /* PublishMovieData.m in Sources */,
 				B912B8F11BD5D09000EFDEC5 /* PublishController.m in Sources */,
 				B912B8F91BD5D09000EFDEC5 /* LoginModel.m in Sources */,
 			);
