@@ -110,7 +110,7 @@
 		B912B8E61BD5D09000EFDEC5 /* RegisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterModel.m; sourceTree = "<group>"; };
 		B912B8FD1BD5D09700EFDEC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B912B8FF1BD5D0A700EFDEC5 /* gwl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gwl.jpg; sourceTree = "<group>"; };
-		B912B9031BD5D10500EFDEC5 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		B912B9031BD5D10500EFDEC5 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = SLPrice/BmobSDK.framework; sourceTree = "<group>"; };
 		B912B9051BD5D1BB00EFDEC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B912B9071BD5D1C400EFDEC5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B912B9091BD5D1D500EFDEC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +164,7 @@
 				B912B9171BD5D21900EFDEC5 /* libsqlite3.dylib */,
 				B912B9151BD5D20C00EFDEC5 /* libicucore.dylib */,
 				B912B9131BD5D20200EFDEC5 /* libz.1.2.5.dylib */,
+				B912B9031BD5D10500EFDEC5 /* BmobSDK.framework */,
 				B912B9111BD5D1FB00EFDEC5 /* SystemConfiguration.framework */,
 				B912B90F1BD5D1F200EFDEC5 /* CoreTelephony.framework */,
 				B912B90D1BD5D1E900EFDEC5 /* CFNetwork.framework */,
@@ -191,7 +192,6 @@
 			children = (
 				B912B8731BD5D07600EFDEC5 /* Main.storyboard */,
 				B912B8761BD5D07600EFDEC5 /* Images.xcassets */,
-				B912B9031BD5D10500EFDEC5 /* BmobSDK.framework */,
 				B912B88F1BD5D09000EFDEC5 /* Classes */,
 				B912B8781BD5D07600EFDEC5 /* LaunchScreen.xib */,
 				B912B8FE1BD5D0A700EFDEC5 /* DocumentFile */,
@@ -1002,6 +1002,7 @@
 				B912B88B1BD5D07600EFDEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B912B88C1BD5D07600EFDEC5 /* Build configuration list for PBXNativeTarget "SLPriceTests" */ = {
 			isa = XCConfigurationList;
@@ -1010,6 +1011,7 @@
 				B912B88E1BD5D07600EFDEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
